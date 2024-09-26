@@ -12,4 +12,6 @@ int main(){
     }else{
         cout << "Bilangan ganjil " << endl;
     }
+    cin.get();
+    return 0;
 }
