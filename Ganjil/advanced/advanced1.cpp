@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdlib>
 using namespace std;
 
 int luas(int a){
@@ -14,6 +15,7 @@ int main(){
     int pil;
     bool choice = true;
     while(choice){
+        system("cls");
         cout << "Masukkan sisi persegi: ";
         cin >> s;
         result = luas(s);
